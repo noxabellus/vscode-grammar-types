@@ -7,10 +7,9 @@ export interface JsonGrammarCaptures {
         name: string;
     };
 }
+
 export interface TMGrammarCaptures {
-    [key: number]: {
-        name: string;
-    };
+    [key: number]: TMGrammarScope;
 }
 
 export interface JsonGrammarScope {
