@@ -1,0 +1,21 @@
+{
+    "name": "@types/vscode-grammar",
+    "displayName": "VSCode Grammar Types",
+    "description": "VSCode TextMate grammar builder types",
+    "version": "1.0.0",
+    "author": "noxabellus@gmail.com",
+    "publisher": "noxabellus",
+    "license": "Apache-2.0",
+    "repository": {
+        "types": "git",
+        "url": "https://github.com/noxabellus/vscode-grammar-types.git"
+    },
+    "main": "",
+    "types": "src/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./src/index.d.ts"
+        },
+        "./package.json": "./package.json"
+    }
+}
