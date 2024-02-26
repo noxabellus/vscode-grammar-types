@@ -53,6 +53,7 @@ export interface JsonGrammar {
     };
 }
 export interface TMGrammar {
+    $schema?: string,
     name: string;
     scopeName: string;
     injectionSelector?: string;
