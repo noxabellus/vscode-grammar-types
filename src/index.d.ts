@@ -3,9 +3,7 @@ export interface JsonObject {
 }
 
 export interface JsonGrammarCaptures {
-    [key: string]: {
-        name: string;
-    };
+    [key: string]: JsonGrammarScope;
 }
 
 export interface TMGrammarCaptures {
